@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final moodEntry = moodEntryFromJson(jsonString);
-
 import 'dart:convert';
 
 List<MoodEntry> moodEntryFromJson(String str) => List<MoodEntry>.from(json.decode(str).map((x) => MoodEntry.fromJson(x)));

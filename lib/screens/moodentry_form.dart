@@ -132,7 +132,6 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                                   'mood': _mood,
                                   'mood_intensity': _moodIntensity.toString(),
                                   'feelings': _feelings,
-                              // TODO: Sesuaikan field data sesuai dengan aplikasimu
                               }),
                           );
                           if (context.mounted) {
